@@ -10,7 +10,7 @@
 
 Nhấp đúp file `PIXEL++-x.y.z.msi` để cài. App được cài vào `Program Files\PIXEL++`, tự tạo shortcut ở Start Menu và Desktop. Gỡ trong **Settings ▸ Apps**.
 
-**Yêu cầu:** Windows 10/11 64-bit. Không cần cài thêm gì cho C++: bộ cài đã có sẵn trình biên dịch g++ (GCC 16). Muốn chạy Python thì máy cần có Python 3.
+**Yêu cầu:** Windows 10/11 64-bit. Không cần cài thêm gì cho C++: bộ cài (~144 MB) đã kèm bộ công cụ [w64devkit](https://github.com/skeeto/w64devkit) đầy đủ. Muốn chạy Python thì máy cần có Python 3.
 
 Cập nhật: tải bản `.msi` mới và cài đè. Cài đặt của bạn (theme, font, test case, tab đang mở…) nằm ở `%APPDATA%\PIXEL++` nên vẫn giữ nguyên.
 
@@ -19,6 +19,7 @@ Cập nhật: tải bản `.msi` mới và cài đè. Cài đặt của bạn (t
 - **App native, nhẹ:** một file exe khoảng 10 MB, không dùng trình duyệt, Electron hay WebView2. Giao diện vẽ bằng card đồ hoạ.
 - **Bấm RUN gần như tức thì:** app biên dịch sẵn ở nền khi bạn ngừng gõ, kèm precompiled header cho `<bits/stdc++.h>`. Chạy lại cùng code thì không biên dịch lại.
 - **C++11 → C++23** với g++ thật, chọn mức tối ưu -O0 → -O3. **Python 3** chạy trực tiếp, không cần biên dịch.
+- **Bộ công cụ đầy đủ đi kèm** (w64devkit 2.11.0): g++ 16.2, gdb 18.1 để debug, make, cmake, vim và các lệnh Unix của busybox. Tất cả dùng được ngay trong TERMINAL của app.
 - **STDIN → OUTPUT:** nhập input sẵn, xem cout (cerr tô đỏ), exit code và thời gian chạy.
 - **Test case kiểu chấm bài:** nhiều bộ input và output mong đợi, chấm AC / WA / TLE / RE, chỉ ra dòng sai đầu tiên.
 - **Lỗi biên dịch tô đỏ đúng dòng.** Bấm vào lỗi để nhảy tới file và dòng đó.
