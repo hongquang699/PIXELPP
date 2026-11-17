@@ -10,7 +10,7 @@
 
 Nhấp đúp file `PIXEL++-x.y.z.msi` để cài. App được cài vào `Program Files\PIXEL++`, tự tạo shortcut ở Start Menu và Desktop. Gỡ trong **Settings ▸ Apps**.
 
-**Yêu cầu:** Windows 10/11 64-bit. Không cần cài thêm gì cho C++: bộ cài (~144 MB) đã kèm bộ công cụ [w64devkit](https://github.com/skeeto/w64devkit) đầy đủ. Muốn chạy Python thì máy cần có Python 3.
+**Yêu cầu:** Windows 10/11 64-bit. Không cần cài thêm gì cho C++: bộ cài (~165 MB) đã kèm bộ công cụ [w64devkit](https://github.com/skeeto/w64devkit) đầy đủ và [clangd](https://clangd.llvm.org/). Muốn chạy Python thì máy cần có Python 3.
 
 Cập nhật: tải bản `.msi` mới và cài đè. Cài đặt của bạn (theme, font, test case, tab đang mở…) nằm ở `%APPDATA%\PIXEL++` nên vẫn giữ nguyên.
 
@@ -23,7 +23,8 @@ Cập nhật: tải bản `.msi` mới và cài đè. Cài đặt của bạn (t
 - **STDIN → OUTPUT:** nhập input sẵn, xem cout (cerr tô đỏ), exit code và thời gian chạy.
 - **Test case kiểu chấm bài:** nhiều bộ input và output mong đợi, chấm AC / WA / TLE / RE, chỉ ra dòng sai đầu tiên.
 - **Lỗi biên dịch tô đỏ đúng dòng.** Bấm vào lỗi để nhảy tới file và dòng đó.
-- **Gợi ý code** cho thư viện chuẩn C++ và Python, có chữ ký hàm, header cần include và mô tả tiếng Việt. Hiểu cả struct, class và hàm bạn tự viết.
+- **Gợi ý code C++ hiểu code thật** (clangd đi kèm): thứ hợp với chỗ con trỏ được xếp lên đầu — trong `int x = ` biến kiểu `int` đứng trước, sau `v.` chỉ hiện thành viên đúng kiểu (kể cả template, `auto`). Chọn hàm là có sẵn ô điền tham số, Tab để nhảy ô. Gõ trong `(…)` hiện chữ ký hàm, đúng overload và đúng tham số đang gõ.
+- **Gợi ý code Python** và mô tả tiếng Việt cho thư viện chuẩn, kèm snippet; hiểu cả class và hàm bạn tự viết.
 - **Snippet** có sẵn cho lập trình thi đấu (`fori`, `main`, `cp`, `tc`, `readv`, `modpow`…).
 - **TERMINAL tích hợp** (PowerShell / Command Prompt) và nút **CHẠY FILE** để nhập `cin` / `input()` trực tiếp.
 - **Quản lý file như IDE:** nhiều tab, cây Explorer, mở folder để biên dịch nhiều file `.cpp` / `.h` cùng lúc, tìm / thay thế, comment nhiều dòng, căn lề.
