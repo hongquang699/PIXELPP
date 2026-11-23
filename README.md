@@ -30,7 +30,7 @@ Cập nhật: tải bản `.msi` mới và cài đè. Cài đặt của bạn (t
 - **Quản lý file như IDE:** nhiều tab, cây Explorer, mở folder để biên dịch nhiều file `.cpp` / `.h` cùng lúc, tìm / thay thế, comment nhiều dòng, căn lề.
 - **Tô màu thụt lề (indent rainbow):** mỗi cấp thụt lề một màu, chỗ thụt lệch tô đỏ.
 - **17 theme pixel** có cảnh động phía sau (Synthwave, Aurora, Phố mưa đêm, Hội An, Hà Nội, TP. Hồ Chí Minh…), mỗi theme một bảng màu code riêng. Có nút tắt cảnh nền.
-- **15 font** lưu sẵn (pixel và font lập trình), chỉnh cỡ chữ, phóng to / thu nhỏ cả giao diện.
+- **Font gọn, dễ đọc**: mặc định JetBrains Mono, kèm 5 font lập trình khác và font có sẵn của Windows (Segoe UI, Consolas…), chỉnh cỡ chữ, phóng to / thu nhỏ cả giao diện.
 - **Nhiều cửa sổ**, nhớ tab, folder, STDIN và test case giữa các lần mở.
 
 ## Phím tắt chính
