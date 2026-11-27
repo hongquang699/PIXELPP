@@ -8,11 +8,28 @@
 
 👉 **[Tải bản mới nhất (.msi)](https://github.com/hongquang699/PIXELPP/releases/latest)**
 
-Nhấp đúp file `PIXEL++-x.y.z.msi` để cài. App được cài vào `Program Files\PIXEL++`, tự tạo shortcut ở Start Menu và Desktop. Gỡ trong **Settings ▸ Apps**.
+Có hai bản, chọn một (hoặc cài cả hai, chạy song song được):
+
+| Bản | File | Có gì |
+|---|---|---|
+| **PIXEL++** | `PIXEL++-x.y.z.msi` | Đủ mọi tính năng viết, biên dịch, chạy và chấm test |
+| **PIXEL++ Plus** | `PIXEL++.Plus-x.y.z.msi` | Mọi thứ của PIXEL++, thêm **thanh nhạc Spotify** ở đáy cửa sổ |
+
+Nhấp đúp file `.msi` để cài. App được cài vào `Program Files\PIXEL++` (bản Plus: `Program Files\PIXEL++ Plus`), tự tạo shortcut ở Start Menu và Desktop. Gỡ trong **Settings ▸ Apps**.
 
 **Yêu cầu:** Windows 10/11 64-bit. Không cần cài thêm gì cho C++: bộ cài (~165 MB) đã kèm bộ công cụ [w64devkit](https://github.com/skeeto/w64devkit) đầy đủ và [clangd](https://clangd.llvm.org/). Muốn chạy Python thì máy cần có Python 3.
 
-Cập nhật: tải bản `.msi` mới và cài đè. Cài đặt của bạn (theme, font, test case, tab đang mở…) nằm ở `%APPDATA%\PIXEL++` nên vẫn giữ nguyên.
+Cập nhật: tải bản `.msi` mới và cài đè. Cài đặt của bạn (theme, font, test case, tab đang mở…) nằm ở `%APPDATA%\PIXEL++` nên vẫn giữ nguyên. Hai bản dùng chung cài đặt này.
+
+## PIXEL++ Plus: thanh nhạc
+
+Vừa code vừa nghe nhạc mà không phải chuyển cửa sổ. Bật một bài trong app hoặc web Spotify, thanh nhạc ở đáy PIXEL++ Plus tự hiện ảnh bìa, tên bài, ca sĩ và thời gian.
+
+- **Điều khiển ngay trong app:** phát / dừng, bài trước / bài sau, trộn bài, lặp lại, kéo thanh thời gian để tua.
+- **Âm lượng riêng của Spotify**, không đụng âm lượng các app khác.
+- **Không cần đăng nhập**, không cần Spotify Premium.
+- Chưa phát nhạc thì có nút mở app Spotify hoặc web Spotify để chọn bài.
+- Bật / tắt ở **Công cụ ▸ Nhạc Spotify**.
 
 ## Điểm nổi bật
 
